@@ -1,0 +1,65 @@
+body {
+    color: #555;
+    background: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+body.simple {
+    padding: 20px 50px;
+}
+
+#connecting,
+#timer,
+#thanks {
+    display: none;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+body.connecting #connecting { display: block; }
+body.timer #timer { display: block; }
+body.thanks #thanks { display: block; }
+
+#connecting #h1,
+#timer h1,
+#thanks h1 {
+    color: #F55;
+    background-color: #000;
+
+    text-align: center;
+    line-height: 100vh;
+    vertical-align: middle;
+    height: 100vh;
+
+    margin: 0;
+    font-size: 30vh;
+}
+
+#connecting h1 {
+    color: #5F5;
+    font-size: 20vh;
+}
+
+#timer h1 {
+    color: #000;
+    background-color: #FFF;
+
+    font-family: monospace;
+    font-size: 90vh;
+}
+
+body.lastMinute #timer h1 {
+    color: #F00;
+    background-color: #FFF;
+
+    font-family: monospace;
+    font-size: 90vh;
+}
+
+#thanks h1 {
+    color: #F55;
+    backh
+}
+

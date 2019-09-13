@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1 Chair manager
+
+    h2 Set Timer
+    p 
+        form(action="/start", method="post")
+            label Minutes:
+                input(name="minutes", type="number", value="30")
+            button(type="submit") Start
+
+    h2 Slave setup
+    p Point the slave monitor to 
+        a(href="/monitor") monitor
+        | .
